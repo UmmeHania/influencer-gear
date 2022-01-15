@@ -45,9 +45,8 @@ grid-template-columns: 1fr 1fr;
 justify-content: center;
 align-items: center;
 /* border: 2px solid red; */
-padding: 10px;
-
-height: 500px;
+padding-bottom: 30px;
+/* height: 500px; */
 }
 .banner-left p{
   margin-bottom: 40px;
@@ -89,7 +88,7 @@ height: 500px;
     font-weight: 800;
     color: #3A3A3A;
     text-align: center;
-    padding-top: 0;
+    padding-top: 30px;
    padding-bottom: 30px;
 }
 .products{
@@ -116,7 +115,7 @@ height: 500px;
   }
 .product .product-banner img{
     width: 300px;
-    height: 256px;
+    height: 240px;
    }
 .product-ratting{
     display: flex;
@@ -200,3 +199,104 @@ text-decoration: none;
    border-radius: 15px;
      */
 }
+
+/*=============reponsive css =============
+============================*/
+
+/* Responsive */
+html,body{
+    height:100%;
+    width: 100%;
+}
+@media only screen and (min-width: 1920px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+@media only screen and (max-width: 767px) {
+    nav {
+        height: auto;
+        text-align: center;
+    }
+
+    header.container {
+        height: auto;
+        padding-bottom: 20px;
+    }
+    section.popular-products {
+        margin: 40px 0;
+    }
+    .container {
+        width: auto;
+        padding: 0;
+        margin: 0px 15px;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .banner-right {
+        text-align: center;
+    }
+
+    img.banner-image {
+        max-width: 70%;
+        height: auto;
+    }
+
+    h1.banner-title {
+        font-size: 30px;
+    }
+
+    p.banner-paragraph {
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+    a.link-btn {
+        font-size: 13px;
+        padding: 10px 20px;
+    }
+
+    a.link-btn i {
+        font-size: 13px;
+    }
+
+    .products {
+        display: block;
+    }
+
+    footer.container {
+        height: auto;
+    }
+    .shots-container {
+        display: block;
+    }
+    .shots-container img {
+        margin-bottom: 20px;
+    }
+    .footer-detail {
+        margin: 20px auto;
+        padding: 50px 0;
+    }
+    h1.section-title {
+        font-size: 32px;
+    }
+    .product {
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: 14px;
+        margin-top: 50px;
+    }
+    .product .product-banner img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+    
