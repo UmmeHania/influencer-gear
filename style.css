@@ -22,7 +22,6 @@ header{
 nav{
     margin-top: 30px;
     height: 80px;
-    /* border: 1px solid red; */
 }
 .nav-title{
     font-size: 20px;
@@ -44,9 +43,7 @@ display: grid;
 grid-template-columns: 1fr 1fr;
 justify-content: center;
 align-items: center;
-/* border: 2px solid red; */
 padding-bottom: 30px;
-/* height: 500px; */
 }
 .banner-left p{
   margin-bottom: 40px;
@@ -65,7 +62,6 @@ padding-bottom: 30px;
    width: 440px;
    height: 414px;
 }
-
 .link-btn{
     text-decoration: none;
     color: white;
@@ -74,12 +70,10 @@ padding-bottom: 30px;
     border-radius: 30px;
     text-decoration: none;
     margin-top: 50px;
-    
-}
+    }
 .fa-arrow-right{
     font-size: 20px;
-    
-}
+    }
 
 /* Main Section CSS */
 
@@ -95,9 +89,7 @@ padding-bottom: 30px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap:30px;
-    grid-row-gap:30px;
-  /* border: 1px solid red; */
-   
+    grid-row-gap:30px; 
 }
 .product{
     width: 329px;
@@ -105,7 +97,6 @@ padding-bottom: 30px;
     border-radius: 10px;
     background-color: whitesmoke;
     box-shadow: (0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05));
-    /* border: 1px solid red; */
     padding: 14px;
 }
 .product-info{
@@ -189,21 +180,15 @@ padding-top: 20px;
 }
 footer a{
 text-decoration: none;
-
 }
-
 .fab{
     font-size: 30px;
     color: white;
-   /* border:8px solid #22213c;
-   border-radius: 15px;
-     */
 }
 
 /*=============reponsive css =============
 ============================*/
 
-/* Responsive */
 html,body{
     height:100%;
     width: 100%;
